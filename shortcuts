@@ -1,5 +1,4 @@
-ShortCut for Pod Logs in K8 (Kubernetes).
-
+*ShortCut for Pod Logs in K8 (Kubernetes).*
 
 Checking logs of a particular pods generally takes 2 steps and it takes bit time, it needs below 2 commands.
 
@@ -17,3 +16,4 @@ kubectl get pods -n <namespace> | awk ‘/<pod name>/{print $1}’ | xargs kubec
 
 So next time when you enter pod1 on your tab you will get to see the logs of the pod.
 Note : To bring ~/.bashrc (or ~/.zshrc) file change into action, you need to open new tab or new shall and onwards it will start working.
+
